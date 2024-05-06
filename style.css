@@ -1,0 +1,70 @@
+body {
+  font-family: "Kode Mono";
+  background-color: #F1FADA;
+  color: #265073;
+  text-align: center;
+  padding: 15px;
+}
+
+h1, h2, h3 {
+  font-family: "Kode Mono";
+  color: #2D9596;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+.card {
+  background-color: white;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #265073;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+
+a:hover {
+  color: #9AD0C2;
+}
+
+i {
+  font-size: 40px;
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
